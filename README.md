@@ -6,3 +6,5 @@ If you have any feedback or suggestions for this website, feel free to open an i
 Thank you for visiting my about me website repository. I hope you find it informative and inspiring.
 
 Discord: Abstraction#2203 (UserID: 517533220493983751)
+
+Direct link: AwakenWilson3961.github.io
