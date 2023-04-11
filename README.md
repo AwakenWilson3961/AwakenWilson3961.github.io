@@ -7,4 +7,3 @@ Thank you for visiting my about me website repository. I hope you find it inform
 
 Discord: Abstraction#2203 (UserID: 517533220493983751)
 
-Direct link: AwakenWilson3961.github.io
