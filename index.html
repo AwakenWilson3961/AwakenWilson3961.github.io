@@ -1,99 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Wilson Li</title>
+    <meta charset="UTF-8" />
+    <title>Wilson</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/x-icon" href="imgs\mikasa.jpg">
+    <link rel="icon" type="image/x-icon" href="imgs\mikasa.jpg" />
   </head>
   <body>
+    <div class="wrapper">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
     <header>
       <nav>
         <ul>
           <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="https://github.com/AwakenWilson3961" target="_blank" >Github</a></li>
+          <li><a href="#skills">YouTube</a></li>
+          <li>
+            <a href="https://github.com/AwakenWilson3961" target="_blank"
+              >Github</a
+            >
+          </li>
           <li><a href="#education">Education</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <section id="about">
-        <div class="container">
-          <h1>About Me</h1>
-          <p>
-            Greetings! Wilson Li here, a devoted front-end web developer with a passion for creating outstanding user experiences. My experience also includes Discord bot creation and Roblox Studio, where I contribute originality and innovation to each project. As a senior at the prestigious High School of Telecommunication Arts and Technology, I am always honing my programming skills and staying current with industry trends. In my spare time, I enjoy playing video games and being immersed in all things computer-related. I aspire to design cutting-edge solutions that exceed expectations with a strong eye for detail and a commitment to perfection.
-          </p>
-        </div>
-      </section>
-      <div id="languages">
-        <h2 class="languages">Programming languages I Know</h2>
-        <div class="images-container">
-          <img class="coding-img" src="imgs\javascript.png" alt="">
-          <img class="coding-img" src="imgs\Python-logo-notext.svg" alt="">
-          <img class="coding-img" src="imgs\HTML5_Badge.svg" alt="">
-          <img class="coding-img" src="imgs\css-3.svg" alt="">
-          <img class="coding-img" src="imgs\Lua-Logo.svg.png" alt=""> 
-        </div>
+
+    <div class="banner">
+      <div class="content">
+        <h2><b>Welcome...</b></h2>
       </div>
-      <section id="skills">
-        <div class="container">
-          <h2>Skills</h2>
-          <ul>
-            <li>Web Development</li>
-            <li>UI/UX Design</li>
-            <li>Project Management</li>
-            <li>Teamwork</li>
-          </ul>
-        </div>
-      </section>
-      <section id="experience">
-        <div class="container">
-          <h2>Experience</h2>
-          <ul>
-            <li>Self - Web Developer</li>
-            <li>Discord Bot - Developer</li>
-            <li>Roblox Upcoming Game - Project Manager</li>
-          </ul>
-        </div>
-      </section>
-      <section id="education">
-        <div class="container">
-          <h2>Education</h2>
-          <ul>
-            <li>High School of Telecommunication Arts and Technology</li>
-          </ul>
-        </div>
-      </section>
-      <section id="contact">
-        <div class="container">
-          <h2>Contact Me</h2>
-          <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required />
+    </div>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required />
+    <section id="about">
+      <div class="container">
+        <h1>About Me</h1>
+        <p>
+          Greetings! Wilson here, a devoted front-end web developer with a
+          passion for creating outstanding user experiences. My experience also
+          includes Discord bot creation and Roblox Studio, where I contribute
+          originality and innovation to each project. As a senior at the
+          prestigious High School of Telecommunication Arts and Technology, I am
+          always honing my programming skills and staying current with industry
+          trends. In my spare time, I enjoy playing video games and being
+          immersed in all things computer-related. I aspire to design
+          cutting-edge solutions that exceed expectations with a strong eye for
+          detail and a commitment to perfection.
+        </p>
+      </div>
+    </section>
 
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
+    <div id="languages">
+      <h1>Coding Languages I know!</h1>
+      <div class="images-container">
+        <img class="coding-img" src="imgs\javascript.png" alt="" />
+        <img class="coding-img" src="imgs\HTML5_Badge.svg" alt="" />
+        <img class="coding-img" src="imgs\css-3.svg" alt="" />
+        <img class="coding-img" src="imgs\Python-logo-notext.svg" alt="" />
+        <img class="coding-img" src="imgs\Lua-Logo.svg.png" alt="" />
+      </div>
+    </div>
 
-            <button type="submit" name="submit" value="Send">Send</button>
+    <section id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul>
+          <li>Web Development</li>
+          <li>UI/UX Design</li>
+          <li>Project Management</li>
+          <li>Teamwork</li>
+        </ul>
+      </div>
+    </section>
 
-            <form action="src\send.php" method="post"> <!--Ignore this LOL (this was a attempt to make a email send howerver I do not have yet the experience... hopefully in the future I learn how to!)-->
-          </form>
-        </div>
-      </section>
-      <footer>
-        <p>Copyright ©2023</p>
-      </footer>
-    </main>
+    <section id="education">
+      <div class="container">
+        <h2>Education</h2>
+        <ul>
+          <li>High School of Telecommunication Arts and Technology</li>
+        </ul>
+      </div>
+    </section>
+    <footer>
+      <p>Copyright ©2023</p>
+    </footer>
   </body>
 </html>
-
-<!--
-
-<h1 class="languages font">Languages I Know</h1>
-
-<li>Mobile App - UI/UX Designer</li>
--->
