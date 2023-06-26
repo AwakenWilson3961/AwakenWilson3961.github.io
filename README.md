@@ -13,7 +13,7 @@ Discord: Abstraction#2203 (UserID: 517533220493983751)
 
 # Updates
 
-- Updated 6/25/2023 revamped the whole website
-- Added improved CSS and HTML
-- Website is now v2
+- 6/25/2023 update: complete website redesign
+- Enhanced CSS and HTML were added
+- Website is currently in version 2
 
