@@ -17,6 +17,6 @@ Discord: Abstraction#2203 (UserID: 517533220493983751)
 - Enhanced CSS and HTML were added
 - Website is currently in version 2
 
-OUTDATED/NO LONGER UPDATING
+# OUTDATED/NO LONGER UPDATING
 
-This was a stage where I wasn't really familiar with HTML and CSS, I honestly was just looking at opensource projects online and trying to replicate them. This was more of a learning experience for me, it is not a project I am proud of. I will be either making a new website or revamping this one. Most likely the first option, after I finish taking web development at my college.
+I wasn't particularly comfortable with HTML and CSS at this point, so I was just looking at opensource projects online and attempting to copy them. This was more of a learning lesson for me than a project that I am pleased of. I'll either create a new website or redesign current one. After I finish my web programming course at college, I'll probably go with the first option.
